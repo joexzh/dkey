@@ -1,0 +1,36 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/go
+# Edit at https://www.toptal.com/developers/gitignore?templates=go
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+### Go Patch ###
+/vendor/
+/Godeps/
+
+# End of https://www.toptal.com/developers/gitignore/api/go
+
+.idea
+/config_4.yaml
+/config_14.yaml
+/config_134.yaml
+/config_1234.yaml
+/config_dh.yaml
+/config_dh2.yaml
+/config_dh3.yaml
+/config_monk.yaml
